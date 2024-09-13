@@ -1,0 +1,186 @@
+html, body {
+  background-color: darkred;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column; 
+  margin-bottom: 0;
+}
+
+body > * {
+  flex-shrink: 0;
+}
+
+#pizzaOvenBanner {
+  margin: 0;
+  background-color: darkred;
+}
+
+#homePageHeading {
+  display: grid;
+  grid-template-columns: 15% auto 15%;	
+}
+
+#brickOvenPizzaTitle > h1 {
+	justify-self: center;
+	margin: .5em;
+}
+
+#linkToCreateLogIn {
+  display: flex;
+  padding-right: 1.5em;
+  align-items: center;
+  justify-self: end;
+}
+
+#linkToCreateLogIn > a {	
+  color: white;
+  text-align: right;
+}
+
+#linkToCreateLogIn > a:hover {	
+  color: gray;
+}
+
+h1 {
+  text-align: center;
+}
+
+#pizzaInBrickOvenGif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 15em;
+  padding-bottom: 1.5em;
+}
+
+.topnav {
+  background-color: #333;
+  background-image: linear-gradient(90deg, #333, Silver, #333);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: gray;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: maroon;
+  color: white;
+}
+
+div.mainGrid-container {
+  display: grid;
+  grid-template-columns: 15% auto 15%;	
+  column-gap: 5%;
+  height:100%;
+  background-color: AntiqueWhite;
+}
+
+div.mainGrid-container {
+  flex-grow: 1;
+}
+
+div.pageContent {
+  margin-left: 1%	
+}
+
+.homePageText {
+  display: flex;
+}
+
+div.leftSidebar {	
+  background-color: moccasin;
+  color: indianred;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+div.leftSidebar > div.leftSidebarFlexBox-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#pizzaTypeTitle {
+	
+}
+
+.pizzaType {
+  margin-bottom: 1em;
+}
+
+.pizzaTypeTitles {
+  margin-bottom: .25em;
+  margin-top: .25em;	
+}
+
+.pizzaTypeText {	
+  padding: 0;
+  margin: 0;
+}
+
+div.rightSidebar {	
+  justify-content: center;
+  background-color: moccasin;
+  color: indianred;
+  padding-bottom: 1em;
+}
+
+div.rightSidebar > div.rightSidebarFlexBox-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;	
+}
+
+#pizzaVarietyTitle {
+  text-align: center;
+}
+
+.pizzaVariety {	
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.pizzaVarietyTitles {
+  margin-bottom: .25em;
+  margin-top: .25em;
+}
+
+.pizzaVarietyRecipe {
+  list-style-type: none;	
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  color: white;
+  margin: 0;
+  font-size: 75%;
+}
+
+#ContactInfo {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#companyEmailInFooter {  	
+  color: white;
+}
+
+#companyEmailInFooter:hover { 
+  color: gray;
+}
